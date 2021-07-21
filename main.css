@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin-top: 3%;
+    text-align: center;
+}
+.myimage{
+    display: flex;
+    justify-content: center; 
+}
+.myoption{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 60%;
+}
+tr,td{
+    border: 2px solid black;
+    padding: 5px;
+}
+table{
+    border-radius: 12px;
+    margin-top: 2%;
+    overflow-y: hidden;
+}
+tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 10px;
+  }
+  tr:last-of-type td:last-of-type {
+    border-bottom-right-radius: 10px;
+  }
+#heads{
+    color: black;
+    font-weight: 500;
+    font-size: 15pt;
+}
+#secheads{
+    color: black;
+    font-weight: 500;
+    font-size: 15pt;
+    margin-left: 5%;
+}
+#todo{
+    visibility: hidden;   
+}
+#congrats{
+    margin-top: 5%;
+}
+
